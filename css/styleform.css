@@ -1,0 +1,52 @@
+.form2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  max-width: 500px;
+  height: 500px;
+  background: rgba(255, 255, 255, 0.5);
+  border:1px solid white;
+  color:darkcyan;
+  font-size: 20px;
+}
+body{
+  background: url("../img/e660e4ee687c4080c02cf7614233d832.png");
+  background-size: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.form_flex{
+  display: flex;
+  flex-direction: column;
+}
+.pol{
+  display: inline;
+}
+.dark{
+  color: darkcyan;
+}
+img{
+  width:10%;
+  height: 10%;
+  transition: 2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+img:hover{
+  width: 20%;
+  height: 20%;
+  transform:scale(2) rotate(15deg);
+
+}
+.albom{
+  background:url("../img/fonn.jpg");
+  background-size: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}

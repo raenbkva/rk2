@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>РЕГИСТРАЦИЯ</title>
+  <link rel="stylesheet" href="css/styleform.css">
+</head>
+<body>
+<form action="#">
+  <div class="form2">
+    <div class="form_flex">
+    <label for="name">Введите ваше имя:</label>
+    <input type="text" name="name" id="name" required="required">
+    <label for="number">Введите ваш номер телефона:</label>
+    <input type="text" name="number" id="number" required="required">
+    Выберите ваш пол:
+    <div class="pol">
+    <label>
+    <input type="radio" name="pol"  value="Женский" checked>Женский</label>
+    <label>
+      <input type="radio" name="pol"  value="Мужской">Мужской</label>
+    </div>
+    <label for="email">Введите ваш E-mail</label>
+    <input type="email" name="email" id="email" required="required">
+    <label for="password">Придумайте пароль</label>
+    <input type="password" name="password" id="password" required="required">
+    <label for="password_repeat">Придумайте пароль</label>
+    <input type="password" name="password_repeat" id="password_repeat" required="required">
+    <input class="dark" type="submit" name="otpravit" value="Зарегестрироваться">
+      Спасибо за регистрацию!
+    </div>
+  </div>
+</form>
+
+</body>
+</html>
